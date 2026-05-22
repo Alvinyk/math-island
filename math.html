@@ -209,6 +209,8 @@ canvas {
   border: 2px solid #c4b89e;
   background: #f8f8f0;
   box-shadow: 0 4px 10px rgba(107,92,67,0.42);
+  max-width: 100%;
+  height: auto;
 }
 
 /* 图例 */
@@ -482,6 +484,9 @@ canvas {
   .corner-deco { font-size: 20px; }
   .corner-deco.tl2, .corner-deco.tr2, .corner-deco.bl2, .corner-deco.br2 { font-size: 16px; }
   .legend { gap: 8px; font-size: 0.75em; }
+  .input-row { flex-wrap: wrap; justify-content: center; }
+  .input-row input[type=range] { width: 120px; }
+  .steps { max-width: 100%; }
 }
 
 /* ===== 柔和动画 ===== */
